@@ -1,2 +1,7 @@
-- @books.each do |book|
-  = book.title
+.container
+  .row
+    - @books.each do |book|
+      .col.s4.m6
+        .card
+          %span.card-title
+            = book.title
