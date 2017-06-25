@@ -19,6 +19,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'webpacker', github: 'rails/webpacker'
 
 group :development, :test do
+  gem 'faker'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
