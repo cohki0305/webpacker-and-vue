@@ -12,6 +12,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'hamlit'
 gem 'erb2haml'
+gem 'materialize-sass'
 
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
@@ -19,6 +20,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'webpacker', github: 'rails/webpacker'
 
 group :development, :test do
+  gem 'faker'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
